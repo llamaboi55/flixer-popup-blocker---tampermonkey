@@ -1,8 +1,12 @@
-# flixer-popup-blocker---tampermonkey
+```markdown
 # TheFlixerTV: Block Popups Only
 
 > 🛡️ A tiny userscript to remove only TheFlixerTV’s toast pop‑ups and fixed‑position ad iframes—leaves your video untouched.
-\
+
+![screenshot-before](https://user-images.githubusercontent.com/llamaboi55/placeholder-before.png)  
+*Before*  
+![screenshot-after](https://user-images.githubusercontent.com/llamaboi55/placeholder-after.png)  
+*After*
 
 ---
 
@@ -65,5 +69,39 @@
      new MutationObserver(removeAds)
        .observe(document.documentElement, { childList: true, subtree: true });
    })();
+   ```
 
-then just refresh and... done (:
+4. Visit **theflixertv.to** and enjoy an ad‑free experience!
+
+---
+
+## Edge Extension
+
+If you prefer a standalone Edge add‑on, see the [`edge/`](./edge/) folder for a Manifest V3 extension you can load unpacked in `edge://extensions`.
+
+---
+
+## Support & Donations
+
+If this script saved you from those pesky pop‑ups, feel free to support its development:
+
+[![Sponsor me on GitHub](https://img.shields.io/badge/Sponsor-GitHub-181717?style=flat&logo=github)](https://github.com/sponsors/llamaboi55)  
+[![Donate via PayPal](https://img.shields.io/badge/PayPal-Donate-003087?style=flat&logo=paypal)](https://paypal.me/llamaboi55?country.x=US&locale.x=en_US)
+
+Every tip—big or small—helps keep this project alive. Thank you! 🙏
+
+---
+
+## Contributing
+
+1. Fork the repo  
+2. Create your feature branch (`git checkout -b feature/my-change`)  
+3. Commit your changes (`git commit -am 'Add awesome feature'`)  
+4. Push to the branch (`git push origin feature/my-change`)  
+5. Open a Pull Request
+
+---
+
+Happy streaming,  
+— _Gili (llamaboi55)_  
+```
